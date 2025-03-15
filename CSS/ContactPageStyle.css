@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1px;
+    display: block;
+  }
+  
+  label.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+  }
+fieldset {
+    
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    /* padding: 10px;
+    margin: 10px 0; */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4A90E2;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+body
+{   place-items: center;
+    background-image: url('/Resources/backgr_reg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.contaxt-div
+{
+    
+    
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form
+{
+    place-items: center;
+    margin: 35px;
+    padding-top: 50px;
+}
+input
+{
+
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+textarea
+{
+    
+    padding-top: 5px;
+    width: 400px ;
+}
+/* .btn
+{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #999;
+    font-size:12px;
+    border: none;
+    cursor: pointer;
+    place-items: center;
+
+} */
+button {
+    background-color: #9b9ea1;
+    color: rgb(236, 236, 241);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    align-items: end;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #2C6695;
+    transform: scale(0.98);
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
