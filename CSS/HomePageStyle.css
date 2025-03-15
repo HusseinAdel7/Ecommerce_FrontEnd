@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0; 
+    height: 100vh; 
+}
+
+body > .homepage {
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* جعل المحتوى يبدأ من اليسار */
+    background-image: url('/Resources/HomePageBackground.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 88vh; 
+    padding-left: 50px; /* إضافة مسافة من اليسار */
+}
+
+.header{
+    background-color: rgb(218, 218, 218);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10 60px;
+}
+.logoimage > img {
+    background-color: rgb(218, 218, 218);
+    width: 60px;
+}
+
+.heasers-links{
+    background-color: rgb(218, 218, 218);
+
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    gap: 90px;
+    margin-left: 0px;
+}
+.heasers-links > a ,.login > a{
+
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.heasers-links > a:hover ,.login > a:hover{
+    font-size: 23px;
+
+    color: rgb(132, 17, 17);
+}
+.login{
+    background-color: rgb(218, 218, 218);
+
+}
+.login > a{
+    background-color: rgb(218, 218, 218);
+
+    font-size: 22px;
+    gap: 30px;
+}
+.heasers-links > a:nth-child(1){
+    margin-left: 290px;
+
+}
+.login > a:nth-child(1) {
+    margin-left: 190px;
+    margin-right: 10px;    
+}
+.login > a:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+.cart > a> img{
+    background-color: rgb(218, 218, 218);
+    width: 40px;
+}
+.text-header {
+    margin-top: 190px;
+
+    align-self: flex-start; /* لضمان بقاء النص في اليسار */
+    color: white;
+    max-width: 400px;
+}
+
+.text-header h4 {
+    color: #ff6600;
+    margin: 5px 0;
+}
+.text-header h1{
+    color: #510b37;
+
+    margin: 5px 0;
+}
+
+.text-header p {
+    color: #245c0c;
+
+    margin-bottom: 15px;
+}
+
+.text-header input {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6600; /* Adjust color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.text-header input:hover {
+    background-color: #e65c00;
+}
