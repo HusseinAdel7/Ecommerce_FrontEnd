@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="/CSS/ProductPageStyle.css">
+    <script src="/JS/ProductPageScript.js" defer></script>
+</head>
+<body onload="loadProducts()">
+    <h1>Product List</h1>
+    <a href="cart.html">View Cart</a>
+    <div id="products"></div>
+    <div id="pagination">
+        <button id="prevPage" class="page-btn" onclick="changePage(-1)">Previous</button>
+        <button id="nextPage" class="page-btn" onclick="changePage(1)">Next</button>
+    </div>
+</body>
+</html>
