@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+h1
+{
+    background-image: url('/Resources/backgr_reg.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    word-spacing: 2px;
+    width: 130px;
+    align-items: center;
+}
 label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
